@@ -403,7 +403,7 @@ When you are happy with your changes, you can format your code and cleanup your 
 
 ```bash
 # Stop and remove the docker containers for zitadel and the database
-docker compose down
+docker compose --file ../e2e/docker-compose.yaml down
 ```
 
 ## Contribute docs
